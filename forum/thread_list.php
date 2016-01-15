@@ -477,7 +477,7 @@ foreach ($folder_order as $folder_number) {
 
         echo "<table width=\"100%\" border=\"0\" cellpadding=\"2\" cellspacing=\"0\">\n";
         echo "  <tr>\n";
-        echo "    <td align=\"left\" colspan=\"2\">\n";
+        echo "    <td align=\"left\" colspan=\"2\"><br />\n";
         echo "      <table width=\"100%\" border=\"0\" cellspacing=\"0\" cellpadding=\"0\">\n";
         echo "        <tr>\n";
         echo "          <td align=\"left\" valign=\"top\" class=\"foldername\">\n";
