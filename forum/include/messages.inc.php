@@ -581,7 +581,7 @@ function message_display($tid, $message, $msg_count, $first_msg, $folder_fid, $i
     echo "      <table width=\"100%\" class=\"box\" cellpadding=\"0\">\n";
     echo "        <tr>\n";
     echo "          <td align=\"left\">\n";
-    echo "            <table class=\"posthead\" width=\"100%\">\n";
+    echo "            <table class=\"message_posthead\" width=\"100%\">\n";
     echo "              <tr>\n";
     echo "                <td width=\"1%\" align=\"right\" style=\"white-space: nowrap\"><span class=\"posttofromlabel\">&nbsp;", gettext("From"), ":&nbsp;</span></td>\n";
     echo "                <td style=\"white-space: nowrap\" width=\"98%\" align=\"left\"><span class=\"posttofrom\">";
@@ -750,7 +750,7 @@ function message_display($tid, $message, $msg_count, $first_msg, $folder_fid, $i
 
         echo "        <tr>\n";
         echo "          <td align=\"left\">\n";
-        echo "            <table width=\"100%\">\n";
+        echo "            <table class=\"message_postbody\" width=\"100%\">\n";
         echo "              <tr>\n";
         echo "                <td colspan=\"3\" align=\"right\"><span class=\"postnumber\">";
 
